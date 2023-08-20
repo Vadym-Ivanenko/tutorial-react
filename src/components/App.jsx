@@ -1,16 +1,18 @@
+import { Counter } from './Counter/Counter';
+
+/* const colorPickerOptions = [
+  { label: 'red', color: red },
+  { label: 'green', color: green },
+  { label: 'blue', color: blue },
+  { label: 'grey', color: grey },
+  { label: 'pink', color: pink },
+  { label: 'idigo', color: indigo },
+]; */
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Counter initialValue={10} />
+    </>
   );
 };
