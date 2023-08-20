@@ -2,7 +2,7 @@ import { Counter } from './counter/Counter';
 import { Dropdown } from './dropdown/Dropdown';
 import { Colorpicker } from './colorPicker/ColorPicker';
 
-export const colorPickerOptions = [
+const colorPickerOptions = [
   { label: 'red', color: 'red' },
   { label: 'green', color: 'green' },
   { label: 'blue', color: 'blue' },
